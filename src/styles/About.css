@@ -1,0 +1,30 @@
+.about-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 170px;
+  margin-bottom: 5em;
+}
+
+.about-text{
+  width: 45vw;
+}
+
+.about-text p {
+  text-align: justify;
+}
+
+.text-img{
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-img{
+
+  width: 35vw;
+  height: 70vh;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}

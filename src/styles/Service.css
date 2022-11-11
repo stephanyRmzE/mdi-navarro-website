@@ -1,0 +1,51 @@
+.service-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 100px;
+  margin-bottom: 5em;
+}
+
+.servicios-div{
+  margin: 5em 3em;
+  display: flex;
+}
+
+.text-img-serv{
+  display: flex;
+  width: 40vw;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-img{
+  width: 50%;
+  height: auto;
+}
+
+.servise-text{
+  width: 40%;
+}
+
+.servise-text p {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.704);
+  text-align: left;
+}
+
+.gradiant-red{
+  height: 15em;
+  width: 1em;
+  border-radius: 2rem;
+  background: rgb(218, 0, 0);
+  background: linear-gradient(180deg, rgba(218, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 35%, rgba(255, 57, 0, 1) 70%, rgba(255, 87, 0, 1) 100%);
+}
+
+.gradiant-orange {
+  height: 15em;
+  width: 1em;
+  border-radius: 2rem;
+  background: rgb(237, 112, 31);
+    background: linear-gradient(180deg, rgba(237, 112, 31, 1) 0%, rgba(237, 117, 31, 1) 35%, rgba(255, 139, 0, 1) 70%, rgba(255, 164, 0, 1) 100%);
+}
