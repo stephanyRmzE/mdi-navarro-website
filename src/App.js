@@ -1,15 +1,20 @@
 import Navbar from "./components/Navbar";
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import "./styles.css"
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Service from './pages/Service.jsx'
+import Contact from './pages/Contact.jsx'
 
 function App() {
   return (
     <>
-      <Router>
+
       <Navbar/>
-      <Routes>
-        <Route path='/' exact />
-      </Routes>
-      </Router>
+      <Home/>
+      <About/>
+      <Service/>
+      <Contact/>
+
     </>
   );
 }
