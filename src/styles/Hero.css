@@ -12,7 +12,7 @@
 }
 
 .hero-img{
-  background-size: 100%;
+  background-size: cover;
   background-image: url('../assets/broker.png');
   margin: 0;
   width: 100%;
