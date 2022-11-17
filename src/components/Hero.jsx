@@ -10,7 +10,7 @@ function Hero() {
       </div>
 
         <div className="hero-text">
-          <img src="images/mdi_white.png" alt="logo_compañia"  className='hero-anagrama'/>
+          <img src="images/MDI_white.png" alt="logo_compañia"  className='hero-anagrama'/>
           <h1>Mantenimiento y Demoliciones Industriales</h1>
           <p>Escoge el servicio que tu compañia necesite</p>
           <a href="/" className='show'> SERVICIOS</a>
@@ -25,7 +25,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    
+
   )
 }
 
