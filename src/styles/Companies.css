@@ -1,0 +1,46 @@
+.companies-container {
+  width: 100vw;
+  height: max-content;
+  position: relative;
+  top: 100px;
+  padding-bottom: 8em;
+}
+
+.companies-container h1{
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 2em 0;
+  color: #ca3600;
+  font-size: 2.5em;
+}
+
+.companies-div {
+  margin: 3em 2em 0;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(10px, 1fr));
+  grid-gap: 10px;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.logo1{
+  width: 12em;
+  height: 5em;
+}
+.logo2 {
+  width: 12em;
+  height: 4em;
+}
+.logo3 {
+  width: 9em;
+  height: 5em;
+}
+
+.gradiant-orange {
+  margin-top: 5em;
+  height: 1em;
+  width: 100vw;
+  border-radius: 2rem;
+  background: rgb(237, 112, 31);
+  background: linear-gradient(180deg, rgba(237, 112, 31, 1) 0%, rgba(237, 117, 31, 1) 35%, rgba(255, 139, 0, 1) 70%, rgba(255, 164, 0, 1) 100%);
+}

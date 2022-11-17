@@ -1,0 +1,42 @@
+.herramientas-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 50px;
+  padding-bottom: 2em;
+  background-color: rgba(255, 255, 255, 0.765);
+}
+
+.herramientas-container h1{
+  margin: 2em;
+}
+
+.herramientas-div{
+  margin: 3em 2em 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  row-gap: 50px;
+  justify-items: center;
+}
+
+.img-num{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+
+.img-num p {
+  color: rgb(199, 0, 0);
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.img-rec{
+  width: 12em;
+  height: 7em;
+}
+.img-cua {
+  width: 12em;
+  height: 10em;
+}

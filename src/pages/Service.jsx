@@ -1,26 +1,22 @@
 import React from 'react'
 import "../styles/Service.css"
+import {ServiceItems} from "../components/ServiceItems"
 
 function Service() {
   return(
-  <div className="service-container">
+  <div className="service-container" id='service'>
     <h1>Nuestros servicios</h1>
     <div className='servicios-div'>
-      <div className='text-img-serv'>
-        <img src="images/demolicion_serv.png" alt="demolicion"  className='service-img'/>
-        <div className='gradiant-red'></div>
-        <div className='servise-text'>
-          <p>Demolición e  instalación de refractarios</p>
-        </div>
-      </div>
-
-      <div className='text-img-serv'>
-        <img src="images/limpieza_almacenes.png" alt="demolicion"  className='service-img'/>
-        <div className='gradiant-orange'></div>
-        <div className='servise-text'>
-          <p>Limpieza de almacenes</p>
-        </div>
-      </div>
+      {ServiceItems.map((item, index) => {
+          return(
+            <div className='text-img-serv' key= {index}>
+              <img src={item.image} alt={item.title}  className='service-img rounded-corners-gradient-borders '/>
+              <div className='servise-text'>
+                <p>{item.title} </p>
+              </div>
+            </div>
+          )
+        })}
     </div>
 
   </div>

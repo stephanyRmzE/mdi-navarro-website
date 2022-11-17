@@ -1,53 +1,94 @@
 .service-container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   position: relative;
-  top: 100px;
-  margin-bottom: 5em;
+  top: 50px;
+  padding-bottom: 5em;
+  background-color: var(--my-orange);
+}
+
+.service-container h1{
+  padding: 1em 0 0 0 ;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 500;
 }
 
 .servicios-div{
-  margin: 5em 3em;
-  display: flex;
+  margin: 3em 2em 0 ;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  row-gap: 30px;
 }
 
 .text-img-serv{
   display: flex;
-  width: 40vw;
+  width: auto;
   height: auto;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
 .service-img{
-  width: 50%;
+  width: 14em;
   height: auto;
 }
 
+.service-img:hover {
+  width: 15em;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.rounded-corners-gradient-borders {
+  border: double 10px transparent;
+  border-radius: 40% 10%;
+  background-image: linear-gradient(white, white), linear-gradient(to bottom left, #f80000, #f9d423);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
 .servise-text{
-  width: 40%;
+  margin-top: 0.5em;
+  width: 100%;
+  height: 3em;
+
 }
 
 .servise-text p {
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.704);
-  text-align: left;
+  color: rgba(255, 255, 255, 0.704);
+  text-align: center;
+  font-size: 1.25em;
 }
 
 .gradiant-red{
-  height: 15em;
-  width: 1em;
+  height: 1em;
+  width: 15em;
   border-radius: 2rem;
   background: rgb(218, 0, 0);
   background: linear-gradient(180deg, rgba(218, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 35%, rgba(255, 57, 0, 1) 70%, rgba(255, 87, 0, 1) 100%);
 }
 
 .gradiant-orange {
-  height: 15em;
-  width: 1em;
+  height: 1em;
+  width: 15em;
   border-radius: 2rem;
   background: rgb(237, 112, 31);
-    background: linear-gradient(180deg, rgba(237, 112, 31, 1) 0%, rgba(237, 117, 31, 1) 35%, rgba(255, 139, 0, 1) 70%, rgba(255, 164, 0, 1) 100%);
+  background: linear-gradient(180deg, rgba(237, 112, 31, 1) 0%, rgba(237, 117, 31, 1) 35%, rgba(255, 139, 0, 1) 70%, rgba(255, 164, 0, 1) 100%);
+}
+
+@media screen and (max-width:850px) {
+
+  .servicios-div {
+    margin: 5em 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
 }
 
 @media screen and (max-width:500px) {
