@@ -6,8 +6,8 @@ import { useInView } from 'react-intersection-observer';
 function About() {
 
   const { ref, inView } = useInView({
-    threshold: 0.05,
-    rootMargin: '100px ',
+    threshold: 0.1,
+    rootMargin: '20px ',
   });
 
   return (
