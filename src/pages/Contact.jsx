@@ -24,7 +24,7 @@ function Contact() {
 
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id= 'contact'>
       <p className='pageHeader'>Contactanos</p>
         <div className="contact-map">
 

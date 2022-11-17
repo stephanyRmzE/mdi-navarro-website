@@ -1,22 +1,26 @@
 import React from 'react'
 import "../styles/About.css"
+import { useInView } from 'react-intersection-observer';
+
 
 function About() {
-  return (
-    <div className="about-container">
-      <h1>
-        Quienes somos
-      </h1>
 
+  const { ref, inView } = useInView({
+    threshold: 0.05,
+    rootMargin: '100px ',
+  });
+
+  return (
+    <div className="about-container" id='about'>
 
       <div className='text-img'>
         <div className='about-text'>
-          <p>Creada en 1998 para dar Servicios de demolición e instalación de Materiales Refractarios a Mexicana de Cobre donde presta sus Servicios hasta el 2011.<br/><br/>
-            En el 2014 incrementamos nuestros servicios, apoyando en la limpieza de Silos de Cemento, y en este año realizamos nuestra primera reparación de Horno en Planta el Palmar, naciendo así una empresa integral en rubro de los servicios de Mantenimiento Cementera. <br /><br />
-            En 2015 iniciamos una asociación con Magnesita división Refractarios, convirtiéndonos en su Instalador oficial, en empresas Cementeras como Cementos Fortaleza, Cementos Moctezuma, Grupo GCC. Consolidándose mas tarde ante la fusión de RHI-Magnesita.<br /><br />
-            Con nuestro afán de consolidarnos como una empresa que responda a los nuevos requerimientos gubernamentales y propios de la Industria, decidimos iniciar un proceso de Certificación de cada una de sus actividades, garantizando con esto las solidez de sus procesos y dando a su clientes la confianza de una empresa que certifica y mantiene actualizados sus procesos.</p>
+          <h1>Quienes somos</h1>
+          <p> Nuestra empresa es originaria de Tequixquiac, estado de México nacida en el 2004 para dar servicios de demolición e instalación de materiales refractarios, siguiendo el legado de nuestras generaciones, desde entonces nos hemos expandido para dar servicioH de mantenimiento industrial y civil. <br /><br />
+              Contamos con toda la infraestructura, herramientas, equipo y personal técnico calificado para cumplir con los requerimiento y compromisos de nuestros clientes.<br /><br />
+              Estamos comprometidos a satisfacer todas las necesidades de nuestros clientes, asegurándonos de la solidez de nuestros procesos y dándoles la confianza de una empresa que certifica y se mantiene.</p>
         </div>
-        <img src="images/about_2.jpeg" alt="horno"  className='about-img'/>
+        <img src="images/about_2.jpeg" alt="quienes somos" ref={ref} className={inView ? 'about-img-activo' : 'about-img'}/>
       </div>
     </div>
   )

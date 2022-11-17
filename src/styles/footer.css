@@ -1,0 +1,50 @@
+.footer {
+  background: #ca3600;
+  display: grid;
+  grid-template-columns: 1fr 30% 1fr 1fr;
+  height: 25vh;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-items: center;
+}
+
+.footer-links {
+  display: flex;
+
+}
+
+.footer-copyright{
+  
+  color: white;
+  text-align: end;
+}
+
+.footer-logo{
+  height: 100px;
+  width: 160px;
+  cursor: default;
+}
+
+.footer-dir{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+}
+
+.footer-dir h2 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+
+}
+.footer-dir p {
+  width: 90%;
+
+}
+
+.social-button{
+  font-size: 2em;
+}
