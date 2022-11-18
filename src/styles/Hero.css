@@ -21,7 +21,7 @@
 
 .hero-text{
   position: absolute;
-  top: 16%;
+  top: 25%;
   left: 37%;
   color: white;
   width: 30%;
@@ -62,16 +62,16 @@
 }
 
 .hero-anagrama {
-  height: 9em;
-  width: 10em;
+  height: 11em;
+  width: 12em;
   cursor: pointer;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width:850px) {
 
   .hero-text {
-    top: 22%;
+    top: 30%;
     left: 22%;
     width: 60%;
     background: rgb(2, 0, 36);
@@ -90,13 +90,13 @@
   }
 
   .hero-anagrama {
-    height: 7em;
-    width: 8em;
+    height: 9em;
+    width: 10em;
     margin-bottom: 0.2em;
   }
 
   .hero-text h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 
@@ -117,7 +117,7 @@
   }
 
   .hero-text {
-    top: 22%;
+    top: 27%;
     left: 22%;
     width: 60%;
     background: rgb(2, 0, 36);
@@ -155,7 +155,7 @@
 .smoke,
 .smoke2,
 .smoke3 {
-  filter: blur(5px);
+  filter: blur(7px);
   transform-origin: 50% 50%;
 }
 
