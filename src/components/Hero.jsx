@@ -12,8 +12,6 @@ function Hero() {
         <div className="hero-text">
           <img src="images/MDI_white.png" alt="logo_compañia"  className='hero-anagrama'/>
           <h1>Mantenimiento y Demoliciones Industriales</h1>
-          <p>Escoge el servicio que tu compañia necesite</p>
-          <a href="/" className='show'> SERVICIOS</a>
           <div class="smoke-wrap">
             <img className='smoke' src="https://www.transparentpng.com/thumb/smoke/H1CWRG-smoke-effect-clipart.png" alt="smoke"/>
           </div>

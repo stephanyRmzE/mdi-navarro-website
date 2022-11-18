@@ -8,7 +8,7 @@ function Footer() {
   const footerYear = new Date().getFullYear()
   return (
     <div class="footer">
-      <img src={logo} alt="logo" className='navbar-logo' />
+
       <div className="footer-dir">
         <h2>Dirección</h2>
         <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
@@ -23,14 +23,6 @@ function Footer() {
             url="/"
           />
 
-          <SocialIcon
-            className="social-button"
-            style={{ height: 70, width: 70 }}
-            bgColor="rgba(0,0,0,0)"
-            fgColor="#FFF"
-            network="instagram"
-            url="https://github.com/stephanyRmzE"
-          />
 
 
           <SocialIcon
@@ -39,7 +31,7 @@ function Footer() {
             bgColor="rgba(0,0,0,0)"
             fgColor="#FFF"
             network="mailto"
-            url="mailto:stephany.ramireze@gmail.com"
+            url="/"
             />
     </div>
     <div className="footer-copyright">

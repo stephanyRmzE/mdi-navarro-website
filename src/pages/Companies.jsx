@@ -5,7 +5,7 @@ import {CompanyItems} from "../components/CompanyItems"
 export default function Companies() {
   return (
     <div className='companies-container'>
-      <h1>Compañias con las que trabajamos</h1>
+      <h1>Empresas donde hemos prestado nuestros servicios</h1>
       <div className='companies-div'>
         {CompanyItems.map((item, index) => {
             return(
