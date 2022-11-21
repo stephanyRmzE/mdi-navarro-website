@@ -3,7 +3,7 @@
   "homepage": "http://mdinavarro.com.mx",
   "version": "1.0.0",
   "description": "my react application",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.35",
     "@react-google-maps/api": "^2.16.1",
