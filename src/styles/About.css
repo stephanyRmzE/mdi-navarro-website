@@ -120,12 +120,21 @@
 
 @media screen and (max-width:500px) {
 
- 
+  .about-container{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    top: 65px;
+  }
+
+  .about-text {
+    height: auto;
+    }
 
   .about-text p {
     text-align: justify;
     font-size: 1em;
-    margin-bottom: 2em;
+    margin: 0 1em 3em
   }
 
   .text-img {
@@ -148,9 +157,9 @@
 
   .about-img {
     background-image: url('../assets/img_about.jpeg');
-    background-size: 100% 99%;
-    width: 70vw;
-    height: 33vh;
+    background-size: cover;
+    width: 90vw;
+    height: 30vh;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
     cursor: default;
     transition: all 1s;
@@ -161,9 +170,9 @@
 
   .about-img-activo {
     background-image: url('../assets/img_about.jpeg');
-    background-size: 100% 99%;
-    width: 70vw;
-    height: 33vh;
+    background-size: cover;
+    width: 90vw;
+    height: 30vh;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
     cursor: default;
     transition: all 1s;

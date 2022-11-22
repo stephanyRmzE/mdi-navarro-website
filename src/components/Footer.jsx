@@ -9,14 +9,11 @@ function Footer() {
   return (
     <div class="footer">
 
-      <div className="footer-dir">
-        <h2>Dirección</h2>
-        <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
-      </div>
+      
     <div class="footer-links">
       <SocialIcon
             className= 'social-button'
-            style={{ height: 70, width: 70 }}
+            style={{ height: 45, width: 45 }}
             bgColor="rgba(0,0,0,0)"
             fgColor="#FFF"
             network="facebook"
@@ -27,7 +24,7 @@ function Footer() {
 
           <SocialIcon
             className="social-button"
-            style={{ height: 70, width: 70 }}
+            style={{ height: 45, width: 45 }}
             bgColor="rgba(0,0,0,0)"
             fgColor="#FFF"
             network="mailto"

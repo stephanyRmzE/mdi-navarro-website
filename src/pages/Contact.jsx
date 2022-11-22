@@ -72,8 +72,13 @@ function Contact() {
 
           </div>
           <div className='map-container'>
-          <Location></Location>
+            <Location></Location>
+            <div className="contact-dir">
+              <h2>Dirección</h2>
+              <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
+            </div>
           </div>
+
         </div>
     </div>
   );

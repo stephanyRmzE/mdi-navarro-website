@@ -3,7 +3,7 @@
   height: max-content;
   position: relative;
   top: 0px;
-  margin-bottom: 5em;
+  margin-bottom: 6em;
 }
 
 .contact-map{
@@ -18,6 +18,11 @@
 .contactDiv{
   width: 45%;
   margin: 0;
+}
+
+.contact-dir{
+  color: black;
+  margin: 1em 0;
 }
 
 .infoDiv{
@@ -102,6 +107,25 @@ a{
   padding: 0.5rem;
 }
 
+
+@media (max-width: 1000px) {
+  .contact-map {
+    flex-direction: column;
+  }
+
+  .contactDiv {
+    width: 90vw;
+    margin-bottom: 3em;
+  }
+
+  .map-container {
+    width: 90vw;
+    height: 50vh;
+    margin-bottom: 2em;
+  }
+
+
+}
 @media (max-width: 700px) {
 
   .contact-map{
