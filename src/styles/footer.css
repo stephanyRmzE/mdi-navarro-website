@@ -1,8 +1,8 @@
 .footer {
   background: #ca3600;
   display: grid;
-  grid-template-columns: 1fr  24% 1fr;
-  height: 25vh;
+  grid-template-columns: 1fr 1fr;
+  height: 20vh;
   padding: 0px 1em;
   color: rgba(0, 0, 0, 0.3);
   align-items: center;
@@ -12,6 +12,11 @@
 .footer-links {
   display: flex;
 
+}
+
+.icon-size {
+  width: 70;
+  height: 70;
 }
 
 .footer-copyright{
@@ -42,4 +47,12 @@
 }
 .footer-dir p {
   width: 90%;
+}
+
+@media screen and (max-width:500px) {
+
+  .icon-size{
+    width: 45;
+    height: 45;
+  }
 }
