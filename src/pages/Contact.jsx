@@ -73,12 +73,20 @@ function Contact() {
           </div>
           <div className='map-container'>
             <Location></Location>
-            <div className="contact-dir">
-              <h2>Dirección</h2>
-              <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
-            </div>
           </div>
-
+        </div>
+        <div className="contact-info">
+          <h2>Dirección</h2>
+          <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
+          <h2>Telefono</h2>
+          <ul>
+            <li><i class="fa fa-phone contact-icons" /> 591 912 2669 </li>
+            <li><i class="fa fa-whatsapp contact-icons"/> 551 375 4575</li>
+          </ul>
+          <h2>Correo</h2>
+          <ul>
+            <li><i class="fa fa-envelope contact-icons" /> mdinavarro@hotmail.com </li>
+          </ul>
         </div>
     </div>
   );

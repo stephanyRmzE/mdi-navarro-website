@@ -20,13 +20,23 @@
   margin: 0;
 }
 
-.contact-dir{
-  color: black;
-  margin: 1em 0;
+
+.contact-info{
+  margin: 2em 0;
+}
+
+.contact-info h2 {
+  margin: 1em 0 0;
+  color: rgb(199, 0, 0);
 }
 
 .infoDiv{
   width: 100%;
+}
+
+.contact-icons{
+  height: 20px;
+  width: 22px;
 }
 
 .formInputDiv{

@@ -8,8 +8,6 @@ function Footer() {
   const footerYear = new Date().getFullYear()
   return (
     <div class="footer">
-
-      
     <div class="footer-links">
       <SocialIcon
             className= 'social-button'

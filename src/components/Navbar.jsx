@@ -53,9 +53,9 @@ function Navbar() {
             >Servicios</Link>
             </li>
             <li  >
-              <a href="tel:662-139-7559" className='nav-call'>
+              <a href="tel:551-375-4575" className='nav-call'>
                 <i class="fa-solid fa-phone"/>
-                662 139 7203
+                551 375 4575
               </a>
             </li>
             <li  >

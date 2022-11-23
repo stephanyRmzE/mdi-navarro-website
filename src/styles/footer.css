@@ -2,7 +2,7 @@
   background: #ca3600;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 20vh;
+  height: 150px;
   padding: 0px 1em;
   color: rgba(0, 0, 0, 0.3);
   align-items: center;
