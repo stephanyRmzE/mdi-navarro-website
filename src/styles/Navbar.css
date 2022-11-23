@@ -30,6 +30,8 @@
 
 }
 
+
+
 .nav-links {
   text-decoration: none;
   border: none;
@@ -51,7 +53,9 @@
   cursor: default;
 }
 
-.nav-links i {
+
+
+.nav-call i {
   padding-right: 10px;
 }
 

@@ -3,7 +3,7 @@
   height: auto;
   position: relative;
   top: 50px;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
   background-color: var(--my-orange);
 }
 
@@ -83,7 +83,7 @@
 @media screen and (max-width:1200px) {
 
   .servicios-div {
-    margin: 5em 3em;
+    margin: 5em 3em 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
