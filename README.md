@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# MDI NAVARRO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### An app created Stephany Ramirez Escarcega. This is a React-based website for our company that specializes in industrial maintenance and demolitions. Our mission is to provide reliable and efficient solutions for industrial maintenance and demolition needs of our clients.
+
+## Features
+Our website offers a range of features to showcase our services and capabilities, including:
+
+Home page with information about our company, services, and recent projects.
+Services page with details about our industrial maintenance and demolition services.
+Projects page with a gallery of our completed projects.
+Contact page with a form for inquiries and a map of our location.
+
+## Contact
+If you have any questions or comments about this project, please don't hesitate to contact us at stephany.rmze@gmail.com We appreciate your feedback!
 
 ## Available Scripts
 
