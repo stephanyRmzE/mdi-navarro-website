@@ -62,7 +62,7 @@ function Contact() {
                 ></textarea>
               </div>
               <a
-                href={`mailto:stephany.ramireze@gmail.com?Subject=&body=${message}`}
+                href={`mailto:mdinavarro@hotmail.com?Subject=&body=${message}`}
               >
                 <button type='button' className='btn-orange'>
                   Enviar
@@ -85,7 +85,11 @@ function Contact() {
           </ul>
           <h2>Correo</h2>
           <ul>
-            <li><i class="fa fa-envelope contact-icons" /> mdinavarro@hotmail.com </li>
+            <a href={`mailto:mdinavarro@hotmail.com`  }  class="email-info" >
+            <li>
+              <i class="fa fa-envelope contact-icons" /> mdinavarro@hotmail.com
+            </li>
+            </a>
           </ul>
         </div>
     </div>
