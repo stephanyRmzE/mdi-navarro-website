@@ -39,6 +39,11 @@
   width: 22px;
 }
 
+.email-info{
+  text-decoration: none;
+  color: #391A4C;
+}
+
 .formInputDiv{
   display: flex;
   flex-direction: column;

@@ -1,7 +1,6 @@
-import { SocialIcon } from "react-social-icons"
+
 import '../styles/footer.css'
-import { FaHeart } from "react-icons/fa";
-import logo from '../assets/mdi_logo.png'
+import { AiFillLinkedin, AiOutlineMail} from "react-icons/ai";
 
 function Footer() {
 
@@ -9,25 +8,17 @@ function Footer() {
   return (
     <div class="footer">
     <div class="footer-links">
-      <SocialIcon
-            className= 'social-button'
-            style={{ height: 45, width: 45 }}
-            bgColor="rgba(0,0,0,0)"
-            fgColor="#FFF"
-            network="facebook"
-            url="/"
-          />
 
-
-
-          <SocialIcon
-            className="social-button"
-            style={{ height: 45, width: 45 }}
-            bgColor="rgba(0,0,0,0)"
-            fgColor="#FFF"
-            network="mailto"
-            url="/"
-            />
+      <div className="footer-link">
+        <a href="https://www.linkedin.com/in/mdi-navarro-7a8776263/">
+          <AiFillLinkedin/>
+        </a>
+      </div>
+      <div className="footer-link">
+        <a href={`mailto:mdinavarro@hotmail.com`  }  class="email-info" >
+          <AiOutlineMail/>
+        </a>
+      </div>
     </div>
     <div className="footer-copyright">
       Copyright &copy; {footerYear} All rights reserved

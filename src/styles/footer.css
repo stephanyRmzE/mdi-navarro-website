@@ -11,7 +11,26 @@
 
 .footer-links {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
 
+.footer-link  {
+  cursor: pointer;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.footer-link svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
 
 .icon-size {
