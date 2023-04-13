@@ -4,9 +4,9 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Service from './pages/Service.jsx'
 import Contact from './pages/Contact.jsx'
-import Herramientas from "./pages/Herramientas";
 import Companies from "./pages/Companies";
 import Footer from "./components/Footer";
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Home/>
       <About/>
       <Service/>
-      {/* <Herramientas/> */}
+      <Gallery/>
       <Companies/>
       <Contact/>
       <Footer/>

@@ -10,12 +10,11 @@ export default function Companies() {
         {CompanyItems.map((item, index) => {
             return(
               <div key={index}>
-                <img src={item.image} alt={item.alt} className={item.class}  />
+                <img src={item.image} alt={item.alt} className={`${item.class} company-logo`}  />
               </div>
             )
           })}
       </div>
-      <div className='gradiant-orange'></div>
     </div>
   )
 }

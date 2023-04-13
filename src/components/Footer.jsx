@@ -10,7 +10,7 @@ function Footer() {
     <div class="footer-links">
 
       <div className="footer-link">
-        <a href="https://www.linkedin.com/in/mdi-navarro-7a8776263/">
+        <a target="_blank" href="https://www.linkedin.com/in/mdi-navarro-7a8776263/" rel="noopener noreferrer">
           <AiFillLinkedin/>
         </a>
       </div>

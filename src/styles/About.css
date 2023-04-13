@@ -1,8 +1,8 @@
 .about-container {
   width: 100vw;
-  height: 100vh;
+  height: 94vh;
   position: relative;
-  top: 130px;
+  top: 123px
 }
 
 .about-text{
@@ -32,28 +32,17 @@
 }
 
 .about-img{
-  background-image: url('../assets/about.jpeg');
   width: 44vw;
   height: 83.5vh;
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   cursor: default;
-  position: absolute;
-  right: -400px;
-  top: -9px;
-  background-size: 100% 110%;
 }
 
 .about-img-activo {
-  background-image: url('../assets/about.jpeg');
-  background-size: 100% 110%;
   width: 43vw;
   height: 90vh;
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   cursor: default;
-  position: absolute;
-  right: 0px;
-  top: -9px;
-  transition: all 1s;
 }
 
 

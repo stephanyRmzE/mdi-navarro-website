@@ -1,16 +1,18 @@
 .companies-container {
+  padding: 3rem;
   width: 100vw;
   height: max-content;
   position: relative;
   top: 100px;
   padding-bottom: 8em;
+  background-color: var(--my-orange);
 }
 
 .companies-container h1{
   font-weight: 600;
   text-align: center;
   margin: 0 0 2em 0;
-  color: #ca3600;
+  color: white;
   font-size: 2.5em;
 }
 
@@ -21,6 +23,24 @@
   grid-gap: 10px;
   row-gap: 20px;
   justify-items: center;
+
+}
+
+.companies-div div{
+  background-color: rgba(255, 255, 255, 0.429);
+  width: 100%;
+  border: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.company-logo{
+
+  border-radius: 5px;
+  padding: 1rem;
 }
 
 .logo1{
@@ -32,18 +52,11 @@
   height: 4em;
 }
 .logo3 {
-  width: 9em;
-  height: 5em;
+  width: 8em;
+  height: 6em;
 }
 
-.gradiant-orange {
-  margin-top: 2em;
-  height: 1em;
-  width: 100vw;
-  border-radius: 2rem;
-  background: rgb(237, 112, 31);
-  background: linear-gradient(180deg, rgba(237, 112, 31, 1) 0%, rgba(237, 117, 31, 1) 35%, rgba(255, 139, 0, 1) 70%, rgba(255, 164, 0, 1) 100%);
-}
+
 
 @media screen and (max-width:1250px) {
 
@@ -59,6 +72,34 @@
   }
 }
 
+@media screen and (max-width:750px) {
+
+  .companies-div {
+      margin: 0 1em;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(10px, 1fr));
+      grid-gap: 10px;
+      row-gap: 20px;
+      justify-items: center;
+  }
+
+    .logo1 {
+      width: 9em;
+      height: 5em;
+    }
+
+    .logo2 {
+      width: 9em;
+      height: 5em;
+    }
+
+    .logo3 {
+      width: 7em;
+      height: 5em;
+    }
+
+}
+
 @media screen and (max-width:550px) {
 
   .companies-container {
@@ -72,29 +113,30 @@
     margin: 1em auto;
   }
 
+    .companies-div {
+      margin: 0 1em;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(10px, 1fr));
+      grid-gap: 10px;
+      row-gap: 20px;
+      justify-items: center;
+    }
 
-  .companies-div {
-    margin: 0 1em;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(10px, 1fr));
-    grid-gap: 10px;
-    row-gap: 20px;
-    justify-items: center;
-  }
+
 
     .logo1 {
       width: 9em;
-      height: 4em;
+      height: 5em;
     }
 
     .logo2 {
       width: 9em;
-      height: 3em;
+      height: 4em;
     }
 
     .logo3 {
-      width: 8em;
-      height: 4em;
+      width: 7em;
+      height: 5em;
     }
 
     .gradiant-orange {
