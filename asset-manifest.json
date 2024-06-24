@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "http://mdinavarro.com.mx/static/css/main.1d371158.css",
-    "main.js": "http://mdinavarro.com.mx/static/js/main.c01802c8.js",
+    "main.js": "http://mdinavarro.com.mx/static/js/main.7f887fdf.js",
     "static/media/broker.png": "http://mdinavarro.com.mx/static/media/broker.4be12b6024d53e4b89e2.png",
     "static/media/hero_image_cell.JPG": "http://mdinavarro.com.mx/static/media/hero_image_cell.348b746f46974fe655b6.JPG",
     "static/media/about.jpeg": "http://mdinavarro.com.mx/static/media/about.d2fc1938934cee519bb4.jpeg",
@@ -9,10 +9,10 @@
     "static/media/mdi_logo.png": "http://mdinavarro.com.mx/static/media/mdi_logo.3080d223239d91971ecd.png",
     "index.html": "http://mdinavarro.com.mx/index.html",
     "main.1d371158.css.map": "http://mdinavarro.com.mx/static/css/main.1d371158.css.map",
-    "main.c01802c8.js.map": "http://mdinavarro.com.mx/static/js/main.c01802c8.js.map"
+    "main.7f887fdf.js.map": "http://mdinavarro.com.mx/static/js/main.7f887fdf.js.map"
   },
   "entrypoints": [
     "static/css/main.1d371158.css",
-    "static/js/main.c01802c8.js"
+    "static/js/main.7f887fdf.js"
   ]
 }
