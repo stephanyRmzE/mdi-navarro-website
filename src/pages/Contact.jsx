@@ -80,8 +80,8 @@ function Contact() {
           <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
           <h2>Telefono</h2>
           <ul>
-            <li><i class="fa fa-phone contact-icons" /> 591 912 2669 </li>
-            <li><i class="fa fa-whatsapp contact-icons"/> 551 375 4575</li>
+            <li><i class="fa fa-phone contact-icons" /> +52 591 912 2669 </li>
+            <li><i class="fa fa-whatsapp contact-icons"/> +52 551 375 4576</li>
           </ul>
           <h2>Correo</h2>
           <ul>
