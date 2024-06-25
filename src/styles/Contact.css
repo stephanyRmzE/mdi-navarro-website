@@ -4,7 +4,7 @@
   height: max-content;
   position: relative;
   top: 0px;
-  margin-bottom: 6em;
+  margin-bottom: 5em;
 }
 
 .contact-map{
@@ -38,6 +38,28 @@
 .contact-icons{
   height: 20px;
   width: 22px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra todo el contenido horizontalmente */
+  align-items: center; /* Centra todo el contenido verticalmente */
+}
+
+.phone-list{
+  margin-bottom: 0.5em;
+}
+
+.email-container{
+  text-align: left; 
+  max-width: 600px; 
+  list-style-type: none; 
+}
+
+.email-list{
+  text-align: left;
+  margin-bottom: 0.5em;
 }
 
 .email-info{

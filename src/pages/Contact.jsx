@@ -80,17 +80,37 @@ function Contact() {
           <p>Carretera Apaxco-Zumpango Km. 30.5 Tequixquiac Edo de Mexico</p>
           <h2>Telefono</h2>
           <ul>
-            <li><i class="fa fa-phone contact-icons" /> +52 591 912 2669 </li>
-            <li><i class="fa fa-whatsapp contact-icons"/> +52 551 375 4576</li>
-          </ul>
-          <h2>Correo</h2>
-          <ul>
-            <a href={`mailto:mdinavarro@hotmail.com`  }  class="email-info" >
-            <li>
-              <i class="fa fa-envelope contact-icons" /> mdinavarro@hotmail.com
+            <li className='phone-list'>
+              <a href="tel:+525513754576" style={{color: "black"}}>
+                <i class="fa fa-phone contact-icons" /> +52 591 912 2669 
+              </a>
             </li>
-            </a>
+            <li className='phone-list'>
+              <a href="https://wa.me/+525513754576" style={{color: "black"}}>
+                <i class="fa fa-whatsapp contact-icons"/> +52 551 375 4576
+              </a>
+            </li>
           </ul>
+          <div className='container'>
+            <h2>Correo</h2>
+            <ul className='email-container'>
+              <li className='email-list'>
+                <a href={`mailto:jesus.navarro@mdinavarro.com.mx`  }  class="email-info" >
+                  <i class="fa fa-envelope contact-icons" /> jesus.navarro@mdinavarro.com.mx
+                </a>
+              </li>
+              <li className='email-list'>
+                <a href={`mailto:carmen.juarez@mdinavarro.com.mx`  }  class="email-info" >
+                  <i class="fa fa-envelope contact-icons" /> carmen.juarez@mdinavarro.com.mx
+                </a>
+              </li>
+              <li className='email-list'>
+                <a href={`mailto:ingrid.navarro@mdinavarro.com.mx`  }  class="email-info" >
+                  <i class="fa fa-envelope contact-icons" /> ingrid.navarro@mdinavarro.com.mx
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
     </div>
   );
